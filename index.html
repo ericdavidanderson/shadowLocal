@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Local: Events and Weather</title>
+  </head>
+  <body>
+    <h1>Enter city in the search bar below to find weather and events</h1>
+    <div>
+      Search for a City:
+      <input type="text" id="city" />
+      <button id="submitCity">Submit</button>
+    </div>
+
+    <!-- This is just a rough draft for where our information can be outputed. I think we should consider keeping our search simple to the next five days for a start
+we can always make it more complex for searching more into the future if we have time -->
+    <div id="currentCity"></div>
+    <div id="5dayForecast"></div>
+    <div id="icon"></div>
+
+    <div id="responseText"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
