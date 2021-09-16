@@ -23,9 +23,8 @@ function displayWeather(data) {
     // create weather card div
     var wCard = document.createElement("p");
     wCard.textContent = "Test";
-    document.body.queryselector(body).appendChild(wCard);
+    document.body.queryselector("body").appendChild(wCard);
     // wCard.innerText = cityName + "'s 8 day forecast";
-   
 
     var weatherDiv = document.createElement("div");
     weatherDiv.setAttribute("class", "container");
@@ -34,7 +33,6 @@ function displayWeather(data) {
     // var weatherPic = document.createElement("div");
     // weatherPic.setAttribute("class", "container");
     // weatherPic.innerHTML = weatherIcon;
-    
 
     var conditions = document.createElement("div");
     var mornT = document.createElement("div");
